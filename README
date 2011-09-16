@@ -1,0 +1,7 @@
+# brainJS
+brainJS is a neural network tool that allows you to visually create artificial neural networks. What makes this tool much cooler than any other tool out there, is that it is completely written in HTML5 and JavaScript.
+
+brainJS uses the neural network library [brain](http://harthur.github.com/brain) from Heather Arthur and provides a graphical user interface to create the neural networks. Networks created with brainJS can be used directly as networks in the brain library. 
+
+# How to use
+Download all files and open index.html to start creating your neural networks. 
