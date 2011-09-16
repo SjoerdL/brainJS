@@ -1,0 +1,219 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+
+a {
+    color: #0000ff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0000ff;
+}
+
+label, input {
+    display: block;
+}
+
+input.text {
+    margin-bottom: 13px;
+    width: 95%;
+    padding: .4em;
+}
+
+#wrapper {
+    padding: 50px 50px 25px 50px;
+}
+
+header {
+    height: 50px;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: xx-large;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+header h2 {
+    font-size: large;
+    font-weight: normal;
+    padding: 0px;
+    margin: 3px 0px 3px 0px;
+}
+
+article {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+section {
+    padding: 35px 0px 35px 0px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.social {
+    margin-bottom: 10px;
+}
+
+.credits {
+    margin-bottom: 20px;
+}
+
+.help {
+    width: 900px;
+    margin-top: 15px;
+    padding-left: 5px;
+}
+
+.help ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.help li {
+    padding-bottom: 3px;
+}
+
+.help img {
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+    vertical-align: text-top;
+}
+
+.menu {
+    width: 225px;
+    float: left;
+    height: 500px;
+    border: 1px solid #000000;
+    margin-right: 10px;
+    padding: 0px 5px 0px 5px;
+} 
+
+.menu h1 {
+    font-weight: bold;
+    font-size: large;
+    margin: 0px;
+    padding: 5px 5px 5px 5px;
+}
+
+.menu .tool {
+    width: 90px; 
+    height: 85px;
+    float: left;
+    border: 1px solid #000000;
+    margin: 5px;
+    padding: 13px 3px 3px 3px;
+    text-align: center;
+}
+
+.menu .selected {
+    border: 1px dotted #000000;
+}
+
+.menu .tool img {
+    padding-top: 10px;
+    width: 48px;
+    height: 48px;
+}
+
+#infoBox {
+    width: 170px;
+    position: absolute;
+    padding-left: 3px;
+    border: 1px solid #c9c9c9;
+    background-color: #ffffff;
+}
+
+#infoBox ul {
+    list-style-type: none;
+    margin: 5px 2px 5px 3px;
+    padding: 0px;
+}
+
+#infoBox li {
+    padding-bottom: 3px;
+}
+
+#singleInputBox {
+    width: 170px;
+    height: 400px;
+    position: absolute;
+    padding-left: 3px;
+    padding-top: 18px;
+    border: 1px solid #c9c9c9;
+    background-color: #ffffff;
+}
+
+input.inputValues {
+    width: 100px;
+    height: 16px;
+    border: 1px solid #000000;
+    padding-left: 2px;
+    margin-bottom: 31px;
+}
+
+input[type=button].calculate {
+    position: absolute;
+    top: 370px;
+    left: 10px;
+    width: 135px;
+    height: 30px;
+    border: 1px solid #000000;
+    background-color: #c9c9c9;
+    padding: 2px;
+}
+
+#singleOutputBox {
+    width: 125px;
+    height: 400px;
+    position: absolute;
+    padding-left: 3px;
+    padding-top: 18px;
+    border: 1px solid #c9c9c9;
+    background-color: #ffffff;    
+}
+
+#editBox {
+    width: 40px;
+    height: 25px;
+    position: absolute;
+    padding-left: 2px;
+    border: 0px;
+    background-color: #ffffff;
+}
+
+#editBox img {
+    width: 16px;
+    height: 16px;
+    margin-right: 2px;
+}
+
+#dialogTrainData textarea {
+    width: 460px;
+}
+
+#dialogSaveNetwork textarea, #dialogLoadNetwork textarea {
+    width: 460px;
+}
+
+.ui-dialog {
+    font-size: 12px;
+}
+
+.validateTips {
+    border: 1px solid transparent;
+    padding: 2px;
+}
